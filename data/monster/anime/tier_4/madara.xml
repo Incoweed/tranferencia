@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Madara" nameDescription="a Madara" race="blood" experience="30000" speed="305">
+    <health now="32000" max="32000"/>
+    <look type="134" head="94" body="114" legs="114" feet="114"/>
+    <targetchange interval="3000" chance="15"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="135" attack="200"/>
+        <attack name="Energy Beam" interval="3000" chance="30"/>
+        <attack name="Energy Wave" interval="4000" chance="25"/>
+        <attack name="Wrath of Nature" interval="6000" chance="20"/>
+    </attacks>
+
+    <defenses armor="95" defense="100"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="260"/>
+        <item id="2152" chance="70000" countmax="15"/>
+    </loot>
+</monster>

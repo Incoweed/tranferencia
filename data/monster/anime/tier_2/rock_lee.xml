@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rock Lee" nameDescription="a Rock Lee" race="blood" experience="7500" speed="340">
+    <health now="9000" max="9000"/>
+    <look type="134" head="78" body="114" legs="114" feet="114"/>
+    <targetchange interval="2000" chance="20"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="100" attack="140"/>
+        <attack name="Berserk" interval="4000" chance="25"/>
+    </attacks>
+
+    <defenses armor="55" defense="60"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="140"/>
+        <item id="2152" chance="50000" countmax="7"/>
+    </loot>
+</monster>

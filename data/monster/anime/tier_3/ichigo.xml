@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ichigo" nameDescription="an Ichigo" race="blood" experience="9500" speed="290">
+    <health now="11000" max="11000"/>
+    <look type="134" head="0" body="114" legs="114" feet="114"/>
+    <targetchange interval="4000" chance="10"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="95" attack="140"/>
+        <attack name="Energy Beam" interval="3500" chance="25"/>
+    </attacks>
+
+    <defenses armor="55" defense="60"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="120"/>
+        <item id="2152" chance="30000" countmax="5"/>
+    </loot>
+</monster>

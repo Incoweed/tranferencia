@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Naruto Six Paths" nameDescription="a Naruto Six Paths" race="blood" experience="82000" speed="345">
+    <health now="88000" max="88000"/>
+    <look type="134" head="78" body="114" legs="114" feet="114"/>
+    <targetchange interval="2000" chance="20"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="165" attack="270"/>
+        <attack name="Energy Strike" interval="2500" chance="35"/>
+        <attack name="Energy Beam" interval="3000" chance="35"/>
+        <attack name="Energy Wave" interval="4000" chance="30"/>
+        <attack name="Rage of the Skies" interval="6000" chance="25"/>
+        <attack name="Divine Caldera" interval="7500" chance="20"/>
+    </attacks>
+
+    <defenses armor="135" defense="145"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="500"/>
+        <item id="2152" chance="90000" countmax="25"/>
+    </loot>
+</monster>

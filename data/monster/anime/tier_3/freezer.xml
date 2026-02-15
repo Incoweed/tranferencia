@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Freezer" nameDescription="a Freezer" race="undead" experience="11000" speed="295">
+    <health now="12500" max="12500"/>
+    <look type="130" head="94" body="94" legs="94" feet="94"/>
+    <targetchange interval="4000" chance="10"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="95" attack="145"/>
+        <attack name="Death Strike" interval="3000" chance="25"/>
+        <attack name="Energy Beam" interval="4000" chance="20"/>
+    </attacks>
+
+    <defenses armor="60" defense="65"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="130"/>
+        <item id="2152" chance="35000" countmax="6"/>
+    </loot>
+</monster>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gaara" nameDescription="a Gaara" race="blood" experience="17000" speed="285">
+    <health now="18500" max="18500"/>
+    <look type="134" head="78" body="114" legs="114" feet="114"/>
+    <targetchange interval="3000" chance="10"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="110" attack="150"/>
+        <attack name="Energy Beam" interval="3000" chance="25"/>
+        <attack name="Energy Wave" interval="4000" chance="30"/>
+        <attack name="Wrath of Nature" interval="6000" chance="20"/>
+    </attacks>
+
+    <defenses armor="90" defense="95"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="220"/>
+        <item id="2152" chance="65000" countmax="13"/>
+    </loot>
+</monster>

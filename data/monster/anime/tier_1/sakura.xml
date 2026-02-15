@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sakura" nameDescription="a Sakura" race="blood" experience="3000" speed="230">
+    <health now="3800" max="3800"/>
+    <look type="136" head="78" body="114" legs="114" feet="114"/>
+    <targetchange interval="4000" chance="10"/>
+
+    <flags>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="55" attack="70"/>
+        <attack name="energy" interval="2500" chance="25" min="-120" max="-320" range="1"/>
+    </attacks>
+
+    <defenses armor="20" defense="25"/>
+
+    <loot>
+        <item id="2148" chance="85000" countmax="45"/>
+    </loot>
+</monster>

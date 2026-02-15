@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Deidara" nameDescription="a Deidara" race="blood" experience="15800" speed="310">
+    <health now="16000" max="16000"/>
+    <look type="134" head="94" body="114" legs="114" feet="114"/>
+    <targetchange interval="2500" chance="15"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="105" attack="145"/>
+        <attack name="Energy Beam" interval="3000" chance="25"/>
+        <attack name="Energy Wave" interval="4000" chance="30"/>
+        <attack name="Divine Caldera" interval="6000" chance="20"/>
+    </attacks>
+
+    <defenses armor="65" defense="70"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="190"/>
+        <item id="2152" chance="60000" countmax="11"/>
+    </loot>
+</monster>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shikamaru" nameDescription="a Shikamaru" race="blood" experience="15000" speed="300">
+    <health now="15500" max="15500"/>
+    <look type="134" head="78" body="114" legs="114" feet="114"/>
+    <targetchange interval="2500" chance="15"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="110" attack="155"/>
+        <attack name="Energy Beam" interval="3000" chance="30"/>
+        <attack name="Energy Wave" interval="4000" chance="20"/>
+    </attacks>
+
+    <defenses armor="70" defense="75"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="190"/>
+        <item id="2152" chance="60000" countmax="10"/>
+    </loot>
+</monster>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kisame" nameDescription="a Kisame" race="blood" experience="32500" speed="300">
+    <health now="36000" max="36000"/>
+    <look type="134" head="78" body="114" legs="114" feet="114"/>
+    <targetchange interval="2500" chance="15"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="150" attack="220"/>
+        <attack name="Energy Wave" interval="4000" chance="30"/>
+        <attack name="Groundshaker" interval="5000" chance="25"/>
+        <attack name="Wrath of Nature" interval="6500" chance="20"/>
+    </attacks>
+
+    <defenses armor="110" defense="120"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="300"/>
+        <item id="2152" chance="80000" countmax="17"/>
+    </loot>
+</monster>

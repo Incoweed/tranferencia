@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Goku" nameDescription="a Goku" race="blood" experience="6500" speed="285">
+    <health now="8000" max="8000"/>
+    <look type="128" head="78" body="69" legs="58" feet="76"/>
+    <targetchange interval="4000" chance="10"/>
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" skill="88" attack="125"/>
+        <attack name="Energy Wave" interval="4000" chance="20"/>
+    </attacks>
+    <defenses armor="48" defense="52"/>
+</monster>

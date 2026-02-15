@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zamasu" nameDescription="a Zamasu" race="blood" experience="26000" speed="300">
+    <health now="28000" max="28000"/>
+    <look type="130" head="69" body="114" legs="114" feet="114"/>
+    <targetchange interval="3000" chance="15"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="120" attack="170"/>
+        <attack name="Energy Beam" interval="3000" chance="30"/>
+        <attack name="Divine Caldera" interval="4500" chance="25"/>
+        <attack name="Wrath of Nature" interval="6000" chance="20"/>
+    </attacks>
+
+    <defenses armor="85" defense="90"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="220"/>
+        <item id="2152" chance="60000" countmax="12"/>
+    </loot>
+</monster>

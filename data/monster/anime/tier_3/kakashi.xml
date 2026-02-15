@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kakashi" nameDescription="a Kakashi" race="blood" experience="3600" speed="250" manacost="0">
+    <health now="4500" max="4500"/>
+    <look type="548" head="114" body="114" legs="114" feet="114" addons="0"/>
+
+    <targetchange interval="4000" chance="10"/>
+
+    <flags>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag staticattack="90"/>
+        <flag targetdistance="3"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="65" attack="75"/>
+    </attacks>
+
+    <defenses armor="28" defense="32"/>
+
+    <immunities>
+        <immunity poison="1"/>
+        <immunity fire="0"/>
+        <immunity energy="0"/>
+        <immunity death="0"/>
+        <immunity physical="0"/>
+    </immunities>
+
+    <loot>
+        <item id="2152" chance="20000" countmax="2"/>
+        <item id="2148" chance="85000" countmax="55"/>
+    </loot>
+</monster>

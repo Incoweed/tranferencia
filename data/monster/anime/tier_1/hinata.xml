@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hinata" nameDescription="a Hinata" race="blood" experience="2900" speed="290">
+    <health now="4400" max="4400"/>
+    <look type="136" head="78" body="114" legs="114" feet="114"/>
+    <targetchange interval="3000" chance="10"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="60" attack="70"/>
+        <attack name="Energy Strike" interval="3000" chance="15"/>
+    </attacks>
+
+    <defenses armor="35" defense="40"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="65"/>
+        <item id="2152" chance="35000" countmax="3"/>
+    </loot>
+</monster>

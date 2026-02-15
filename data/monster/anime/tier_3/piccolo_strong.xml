@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Piccolo Strong" nameDescription="a Piccolo Strong" race="blood" experience="13000" speed="290">
+    <health now="14500" max="14500"/>
+    <look type="130" head="69" body="114" legs="114" feet="114"/>
+    <targetchange interval="4000" chance="10"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="100" attack="150"/>
+        <attack name="Energy Beam" interval="3000" chance="30"/>
+        <attack name="Energy Wave" interval="4500" chance="20"/>
+    </attacks>
+
+    <defenses armor="75" defense="80"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="170"/>
+        <item id="2152" chance="45000" countmax="8"/>
+    </loot>
+</monster>

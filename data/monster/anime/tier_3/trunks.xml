@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Trunks" nameDescription="a Trunks" race="blood" experience="12500" speed="300">
+    <health now="14000" max="14000"/>
+    <look type="134" head="78" body="114" legs="114" feet="114"/>
+    <targetchange interval="4000" chance="10"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="105" attack="160"/>
+        <attack name="Energy Beam" interval="3000" chance="25"/>
+        <attack name="Groundshaker" interval="4500" chance="20"/>
+    </attacks>
+
+    <defenses armor="70" defense="75"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="160"/>
+        <item id="2152" chance="45000" countmax="8"/>
+    </loot>
+</monster>

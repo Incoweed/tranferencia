@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fusion Zamasu" nameDescription="a Fusion Zamasu" race="blood" experience="58000" speed="315">
+    <health now="60000" max="60000"/>
+    <look type="130" head="94" body="114" legs="114" feet="114"/>
+    <targetchange interval="3000" chance="15"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="145" attack="220"/>
+        <attack name="Energy Beam" interval="3000" chance="30"/>
+        <attack name="Divine Caldera" interval="4500" chance="25"/>
+        <attack name="Wrath of Nature" interval="6000" chance="20"/>
+        <attack name="Rage of the Skies" interval="7000" chance="15"/>
+    </attacks>
+
+    <defenses armor="115" defense="125"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="380"/>
+        <item id="2152" chance="85000" countmax="18"/>
+    </loot>
+</monster>

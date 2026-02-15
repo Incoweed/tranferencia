@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tsunade" nameDescription="a Tsunade" race="blood" experience="16500" speed="290">
+    <health now="19000" max="19000"/>
+    <look type="136" head="78" body="114" legs="114" feet="114"/>
+    <targetchange interval="3000" chance="10"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="130" attack="185"/>
+        <attack name="Berserk" interval="4000" chance="25"/>
+        <attack name="Groundshaker" interval="5000" chance="20"/>
+    </attacks>
+
+    <defenses armor="85" defense="90"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="220"/>
+        <item id="2152" chance="65000" countmax="13"/>
+    </loot>
+</monster>

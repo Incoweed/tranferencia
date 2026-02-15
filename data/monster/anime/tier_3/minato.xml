@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Minato" nameDescription="a Minato" race="blood" experience="14500" speed="340">
+    <health now="16000" max="16000"/>
+    <look type="134" head="69" body="114" legs="114" feet="114"/>
+    <targetchange interval="2000" chance="20"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="110" attack="160"/>
+        <attack name="Energy Strike" interval="2500" chance="35"/>
+        <attack name="Energy Beam" interval="3000" chance="30"/>
+    </attacks>
+
+    <defenses armor="65" defense="70"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="180"/>
+        <item id="2152" chance="60000" countmax="10"/>
+    </loot>
+</monster>

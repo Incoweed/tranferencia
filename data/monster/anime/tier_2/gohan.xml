@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gohan" nameDescription="a Gohan" race="blood" experience="6400" speed="285">
+    <health now="7800" max="7800"/>
+    <look type="128" head="78" body="69" legs="58" feet="76"/>
+    <targetchange interval="4000" chance="10"/>
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" skill="85" attack="120"/>
+        <attack name="Energy Strike" interval="2500" chance="30"/>
+        <attack name="Divine Missile" interval="3500" chance="20"/>
+    </attacks>
+    <defenses armor="46" defense="50"/>
+</monster>

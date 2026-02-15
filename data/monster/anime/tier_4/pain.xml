@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pain" nameDescription="a Pain" race="blood" experience="29000" speed="315">
+    <health now="30000" max="30000"/>
+    <look type="134" head="94" body="114" legs="114" feet="114"/>
+    <targetchange interval="3000" chance="15"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="130" attack="185"/>
+        <attack name="Energy Beam" interval="3000" chance="30"/>
+        <attack name="Energy Wave" interval="4000" chance="25"/>
+        <attack name="Divine Caldera" interval="6000" chance="20"/>
+    </attacks>
+
+    <defenses armor="90" defense="95"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="250"/>
+        <item id="2152" chance="70000" countmax="15"/>
+    </loot>
+</monster>

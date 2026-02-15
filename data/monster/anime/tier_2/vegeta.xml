@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Vegeta" nameDescription="a Vegeta" race="blood" experience="6200" speed="280">
+    <health now="7500" max="7500"/>
+    <look type="128" head="0" body="69" legs="58" feet="76"/>
+    <targetchange interval="4000" chance="10"/>
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" skill="85" attack="120"/>
+        <attack name="Energy Strike" interval="2500" chance="25"/>
+    </attacks>
+    <defenses armor="45" defense="48"/>
+</monster>

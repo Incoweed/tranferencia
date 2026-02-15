@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Broly" nameDescription="a Broly" race="blood" experience="75000" speed="320">
+    <health now="90000" max="90000"/>
+    <look type="134" head="94" body="114" legs="114" feet="114"/>
+    <targetchange interval="3000" chance="15"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="150" attack="250"/>
+        <attack name="Energy Wave" interval="3000" chance="30"/>
+        <attack name="Energy Beam" interval="3500" chance="25"/>
+        <attack name="Groundshaker" interval="4500" chance="20"/>
+    </attacks>
+
+    <defenses armor="120" defense="130"/>
+
+    <loot>
+        <item id="2148" chance="95000" countmax="400"/>
+        <item id="2152" chance="80000" countmax="20"/>
+    </loot>
+</monster>

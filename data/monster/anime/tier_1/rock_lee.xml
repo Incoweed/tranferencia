@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rock Lee" nameDescription="a Rock Lee" race="blood" experience="3800" speed="265" manacost="0">
+    <health now="4800" max="4800"/>
+    <look type="" head="0" body="114" legs="114" feet="114" addons="0"/>
+
+    <targetchange interval="4000" chance="10"/>
+
+    <flags>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag staticattack="90"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" interval="1800" skill="75" attack="95"/>
+    </attacks>
+
+    <defenses armor="30" defense="35"/>
+
+    <immunities>
+        <immunity poison="1"/>
+        <immunity fire="0"/>
+        <immunity energy="0"/>
+        <immunity death="0"/>
+        <immunity physical="0"/>
+    </immunities>
+
+    <loot>
+        <item id="2152" chance="22000" countmax="2"/>
+        <item id="2148" chance="90000" countmax="60"/>
+    </loot>
+</monster>
